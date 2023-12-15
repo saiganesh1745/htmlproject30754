@@ -1,0 +1,142 @@
+<html>
+    
+<head>
+<title>MSWD </title>
+
+</head>
+<style>
+
+  body
+  {
+    background-image: url(images/bgimage.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+
+  .navbar{
+    background-color:transparent;
+    text-shadow:black;
+
+}
+.navbar a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white; /* Change this to your desired text color */
+}
+.navbar a:hover {
+  background-color: #555; /* Change this to your desired hover background color */
+}
+.navbar ul {
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px; /* Adjust the spacing between links */
+}
+
+.navbar {
+  
+  top: 0;
+  width: 100%;
+}
+
+  form {
+      width: 300px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  
+    .button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      background-color: #45a049;
+}
+.button1 {
+  background-color: rgba(215, 0, 0, 0.773); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button1:hover {
+  background-color: rgb(191, 29, 29); /* darker shade on hover */
+  box-shadow: 0 0 10px rgba(139, 120, 120, 0.2); /* subtle box shadow on hover */
+}
+
+.button2 {
+  background-color:rgb(63, 143, 200);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button2:hover {
+  background-color:  rgba(35, 166, 199, 0.773);  /* darker shade on hover */
+  box-shadow: 0 0 10px rgba(139, 120, 120, 0.2); /* subtle box shadow on hover */
+}
+
+</style>
+
+<h2 align="center" style="color: aliceblue;">Student Information System </h2>
+<div class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="Registration.html">Registration</a>&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>&nbsp;&nbsp;&nbsp;</li>
+</ul>
+</div>
+
+
+<br><br>
+<b style="color: azure;">I am in LoginPage</b>
+
+<form method="post" action="profile.html">
+<br><br>
+
+Enter Email Address<input type="email" name="EmailId" required/>
+<br><br>
+Enter Password<input type="password" name="PWD" required/>
+<br><br>
+<input type="submit" value="Login" class="button"/>
+<input type="reset" value="Clear" class="button1"/>
+</form>
+<br> 
+<p style="text-align: center; color: azure;">
+New User ? <a href="Registration.html" class="button2">Register Here</a> 
+</p>
+
+
+
+</body>
+
+</html>
